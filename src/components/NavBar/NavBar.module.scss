@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #262626;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  font-size: 1.5rem;
+  z-index: 100;
+
+  .navbarList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0.7rem;
+    padding: 0;
+
+    .navbarItem {
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

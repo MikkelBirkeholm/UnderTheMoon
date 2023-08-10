@@ -1,0 +1,30 @@
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url('/hero-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100dvh;
+  width: 100%;
+  h1 {
+    font-size: calc(4rem + 6vw);
+    text-shadow: 0px 0px 8px hsla(0, 0%, 0%, 0.5);
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 100%;
+    height: 40%;
+    h2 {
+      font-size: calc(1rem + 2vw);
+      margin-bottom: 10px;
+    }
+    p {
+      width: clamp(10ch, 50%, 90%);
+    }
+  }
+}
